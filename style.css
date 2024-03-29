@@ -1,15 +1,16 @@
 *{
   margin: 10px;
+  background-image: url(joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+  background-color: none;
 }
 body {
-  height: 2000px;
+  height: 1900px;
   background-color: white;
   background-size: auto;
 }
 
 
 .block_1{
-border: 1px solid #000;
 position: relative;
 width: 1900px;
 height: 100px;
@@ -21,6 +22,7 @@ align-items: baseline;
 .pos{
   position: absolute ;
   display: flex;
+  font-family:'Courier New', Courier, monospace;
   gap: 10px;
   font-size: 80%;
 
@@ -36,8 +38,10 @@ align-items: baseline;
 }
 .title {
   font-size: 100%;
+  font-family:'Courier New', Courier, monospace;
   position: inherit;
   top: 20%;
+
   left: 40%;
 }
 .block_2 {
@@ -51,64 +55,61 @@ height: 650px;
 
 }
 .img{
-border: 2px solid black;
-width: 500px;
-height: 400px;
-}
-.menu{
-  border: 2px solid black;
-
+max-width: 200%;
+max-height: 200%;
 }
 #email {
-  border-radius: 30px;
+  border-radius: 20px;
   margin-top: 70px;
   margin-left: 100px;
   margin-bottom: 50px;
-  width: 500px;
-  height: 40px;
+  width:  60%;
+  height: 40%;
   padding: 15px;
   border-width: 1px;
 }
 #name {
-  border-radius: 30px;
+  border-radius: 20px;
   margin-left: 100px;
   margin-bottom: 30px;
-  width: 500px;
-  height: 40px;
+  width: 60%;
+  height: 40%;
   padding: 15px;
   border-width: 1px;
 }
 #date {
-  border-radius: 25px;
+  border-radius:20px;
   margin-left: 100px;
   margin-bottom: 20px;
-  width: 250px;
-  height: 30px;
+  width: 30%px;
+  height: 15%;
   padding: 15px;
   border-width: 1px;
 }
 #check {
-  margin: 1px 100px;
+  margin: 1px 90px;
   position: inherit ;
-    top: 500px;
-    left: 500px;
+    top: 400px;
+    left: 430px;
   }
   .poli{
     position: relative;
-    margin-left: 300px;
+    margin-left: 50%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: aqua;
     color: beige;
     
 }
- 
+
 #block_3{
   position:absolute ;
+  font-family:'Courier New', Courier, monospace;
   top: 650px;
 
 }
 .block_4{
+  font-family:'Courier New', Courier, monospace;
   position: absolute;
   top: 700px;
   display: flex;
@@ -120,6 +121,7 @@ height: 400px;
 
 }
 .block_5{
+  font-family:'Courier New', Courier, monospace;
   position:absolute ;
   top: 1200px;
   display: flex;

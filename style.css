@@ -1,8 +1,11 @@
 *{
   margin: 10px;
+  background-image: url(joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+  background-color: none;
 }
 body {
   height: 1900px;
+  background-color: white;
   background-size: auto;
   background-image: url(joe-woods-4Zaq5xY5M_c-unsplash.jpg);
 }
@@ -40,6 +43,7 @@ align-items: baseline;
   font-family:'Courier New', Courier, monospace;
   position: inherit;
   top: 20%;
+
   left: 40%;
 }
 .block_2 {
@@ -144,7 +148,6 @@ max-height: 200%;
 }
 .block_5{
   font-family:'Courier New', Courier, monospace;
-
   position:absolute ;
   top: 1200px;
   display: flex;
